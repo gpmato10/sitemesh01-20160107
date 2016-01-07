@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<decorators defaultdir="/WEB-INF/pages/layout">
+    <decorator name="main" page="hd.jsp">
+        <pattern>/hh</pattern>
+    </decorator>
+
+    <decorator name="bootmain" page="bootstrapmain/boot.jsp">
+        <pattern>/board1</pattern>
+    </decorator>
+
+    <decorator name="bootmain2" page="bootstrapmain/boot.jsp">
+        <pattern>/board2</pattern>
+    </decorator>
+
+    <excludes>
+        <pattern>/hello/exclude.jsp</pattern>
+        <pattern>/news/exclude.jsp</pattern>
+    </excludes>
+
+</decorators>
