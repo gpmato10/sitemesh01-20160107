@@ -5,9 +5,9 @@
 </head>
 <body>
 signup.jsp 입니다..
-회원가입 하세요
+<h1>회원가입 하세요</h1>
 
-<form action="/signup" method="post">
+<form action="/signuping" method="post">
     <label for="id">아이디</label> <input type="text" name="id" id="id"/><br/>
     <label for="password">비밀번호</label> <input type="text" name="password" id="password"/>
     <input type="submit" value="가입"/>
