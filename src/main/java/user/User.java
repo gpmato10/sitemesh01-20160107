@@ -1,8 +1,14 @@
 package user;
 
+import javax.validation.constraints.Size;
+
 public class User {
+
+    @Size(min=2, max = 30)
     private String id;
+
     private String password;
+
 
     public User() {
     }
@@ -14,7 +20,6 @@ public class User {
     }
 
     public String getId() {
-
         return id;
     }
 
@@ -29,6 +34,9 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+
+
 
     @Override
     public String toString() {

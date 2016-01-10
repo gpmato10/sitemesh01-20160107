@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="decorator" uri="http://www.opensymphony.com/sitemesh/decorator" %>
 <html lang="ko">
 <head>
@@ -48,7 +49,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">로그인</a></li>
-                <li><a href="/user/signup">회원가입</a></li>
+                <li><a href="page/user/signup">회원가입</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Help</a></li>
             </ul>
